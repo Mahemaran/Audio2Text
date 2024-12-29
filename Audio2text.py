@@ -12,7 +12,7 @@ st.title("Audio to Text Transcription App")
 # File uploader
 uploaded_file = st.file_uploader("Upload an audio file", type=["mp3", "wav", "m4a", "ogg", "mp4"])
 # Set FFmpeg path
-os.environ["PATH"] += os.pathsep + r"C:\ffmpeg"
+# os.environ["PATH"] += os.pathsep + r"C:\ffmpeg"
 # choose type
 model = st.sidebar.selectbox(" select type", ["Whisper API", "Whisper"])
 
