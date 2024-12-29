@@ -1,0 +1,6 @@
+ffmpeg-python
+whisper
+pydub
+transformers
+openai
+streamlit
